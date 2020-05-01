@@ -13,9 +13,9 @@ meeting_id = input("Enter the meeting id")  # meeting id of the meeting to join
 
 driver.get("https://zoom.us/signin")
 email_box = driver.find_element_by_id("email")
-email_box.send_keys(input("Enter your Email-id"))  # Email-id for login
+email_box.send_keys(input("Enter your Email-id"))  # your zoom Email-id for login
 password_box = driver.find_element_by_id("password")
-password_box.send_keys(input("Enter your Password"))  # Password for login
+password_box.send_keys(input("Enter your Password"))  # your zoom Password for login
 sign_in_btn = driver.find_element_by_xpath(
     """/html/body/div[1]/div[3]/div[2]/div[2]/div/div[2]/div/form/div[3]/div/div[1]/a""")
 sign_in_btn.click()
