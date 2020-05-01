@@ -1,5 +1,4 @@
 chromedriver-autoinstaller==0.2.0
-pynput==1.6.8
 selenium==3.141.0
 six==1.14.0
 urllib3==1.25.9
